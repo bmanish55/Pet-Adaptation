@@ -1,0 +1,215 @@
+/* 
+    Author: MAS
+    Theme: Pet Adoption Site Admin Theme
+    version: 1.0;
+*/
+
+/* for removing default margin and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* for containing and initial positioning */
+
+.wrapper {
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tbl-full {
+    width: 100%;
+
+}
+
+.tbl-30 {
+    pad: 1dp;
+    width: 40%;
+}
+
+.org-color {
+    color: #ff7f50;
+    font-weight: bold;
+}
+
+.success {
+    color: #5352ed;
+    font-weight: bold;
+}
+
+.error {
+    color: #ff7f50;
+}
+
+table tr th {
+    border-bottom: 1px solid gray;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+    text-align: left;
+}
+
+
+.btn-primary {
+
+    background-color: #3290e2;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    color: white;
+}
+
+.btn-secondary {
+
+    background-color: #18e274;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: #16b65f;
+
+}
+
+.btn-ter {
+
+    background-color: #e90b0b;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-ter:hover {
+    color: white;
+    background-color: #e51c1f;
+
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* for navbar section */
+
+.menu {
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* for main content section */
+
+.main-content {
+    margin: 1% 1%;
+}
+
+/* background image and background properties */
+
+.pet-background {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+h3 {
+    color: red;
+}
+
+/* for the column */
+
+.col-4 {
+    width: 20%;
+    background-color: orangered;
+    margin: 1%;
+    padding: 4% 1%;
+    float: left;
+    /* text-decoration: white; */
+}
+
+.text-white {
+    color: white;
+}
+
+.all-caps {
+    text-transform: capitalize;
+}
+
+/* for clearing the float from the elements */
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+
+
+
+
+.login {
+
+    border: 1px solid navy;
+    width: 25%;
+    margin: 10% auto;
+}
+
+
+/* ataullha added */
+.tbl-adopt {
+
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn_update {
+    height: 5px;
+    line-height: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 50px;
+    padding: 15px;
+    background-color: #18e274;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.btn_update:hover{
+    color: #fff;
+    background-color: #16b65f;
+}
