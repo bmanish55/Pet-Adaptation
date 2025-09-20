@@ -76,4 +76,3 @@ Open your browser:
 http://localhost/Pet-Adaptation-Vet-Community/
 ```
 The homepage should load; you can now navigate through categories, pets, and vet community
->>>>>>> 9dae223190f2c67190bbb4de93108c352c061dbc
